@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-            	git branch: 'main',
-                git 'https://github.com/vinay-cs245/MavenWebappTest1'
+            	git branch: 'main', git 'https://github.com/vinay-cs245/MavenWebappTest1'
             }
         }
 
